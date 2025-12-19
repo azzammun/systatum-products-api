@@ -4,7 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="4303aa8e-64c3-4801-8833-b610e40c14b2" name="Changes" comment="Set up initial Django REST API project structure" />
+    <list default="true" id="4303aa8e-64c3-4801-8833-b610e40c14b2" name="Changes" comment="Implement ProductViewSet to provide full CRUD functionality">
+      <change afterPath="$PROJECT_DIR$/products/urls.py" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -91,7 +93,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1766138516448</updated>
-      <workItem from="1766138517519" duration="1146000" />
+      <workItem from="1766138517519" duration="1459000" />
     </task>
     <task id="LOCAL-00001" summary="Set up initial Django REST API project structure">
       <option name="closed" value="true" />
@@ -109,7 +111,31 @@
       <option name="project" value="LOCAL" />
       <updated>1766144732700</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Define Product entity with JSONField for extensible product data storage">
+      <option name="closed" value="true" />
+      <created>1766145620191</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1766145620191</updated>
+    </task>
+    <task id="LOCAL-00004" summary="Add ProductSerializer to expose id and flexible fields">
+      <option name="closed" value="true" />
+      <created>1766145734453</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1766145734453</updated>
+    </task>
+    <task id="LOCAL-00005" summary="Implement ProductViewSet to provide full CRUD functionality">
+      <option name="closed" value="true" />
+      <created>1766145773389</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1766145773389</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -117,6 +143,9 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Set up initial Django REST API project structure" />
-    <option name="LAST_COMMIT_MESSAGE" value="Set up initial Django REST API project structure" />
+    <MESSAGE value="Define Product entity with JSONField for extensible product data storage" />
+    <MESSAGE value="Add ProductSerializer to expose id and flexible fields" />
+    <MESSAGE value="Implement ProductViewSet to provide full CRUD functionality" />
+    <option name="LAST_COMMIT_MESSAGE" value="Implement ProductViewSet to provide full CRUD functionality" />
   </component>
 </project>
