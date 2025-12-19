@@ -1,0 +1,8 @@
+# Default ignored files
+/../../systatum_products_api /.idea/shelf/
+/../../systatum_products_api /.idea/workspace.xml
+# Editor-based HTTP Client requests
+/../../systatum_products_api /.idea/httpRequests/
+# Datasource local storage ignored files
+/../../systatum_products_api /.idea/dataSources/
+/../../systatum_products_api /.idea/dataSources.local.xml
