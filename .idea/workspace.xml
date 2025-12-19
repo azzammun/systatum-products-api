@@ -13,6 +13,18 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
+  "lastFilter": {
+    "state": "OPEN",
+    "assignee": "azzammun"
+  }
+}]]></component>
+  <component name="GithubPullRequestsUISettings"><![CDATA[{
+  "selectedUrlAndAccountId": {
+    "url": "https://github.com/azzammun/systatum-products-api.git",
+    "accountId": "5a98a33e-f9a6-47c6-b554-ea9277444e81"
+  }
+}]]></component>
   <component name="ProjectColorInfo"><![CDATA[{
   "associatedIndex": 2
 }]]></component>
@@ -79,7 +91,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1766138516448</updated>
-      <workItem from="1766138517519" duration="644000" />
+      <workItem from="1766138517519" duration="1146000" />
     </task>
     <task id="LOCAL-00001" summary="Set up initial Django REST API project structure">
       <option name="closed" value="true" />
@@ -89,7 +101,15 @@
       <option name="project" value="LOCAL" />
       <updated>1766144361918</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Set up initial Django REST API project structure">
+      <option name="closed" value="true" />
+      <created>1766144732700</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1766144732700</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
