@@ -4,13 +4,32 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="4303aa8e-64c3-4801-8833-b610e40c14b2" name="Changes" comment="Implement ProductViewSet to provide full CRUD functionality">
-      <change afterPath="$PROJECT_DIR$/products/urls.py" afterDir="false" />
+    <list default="true" id="4303aa8e-64c3-4801-8833-b610e40c14b2" name="Changes" comment="Configure root URL routing and expose product API endpoints">
+      <change afterPath="$PROJECT_DIR$/requirements.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/db.sqlite3" beforeDir="false" afterPath="$PROJECT_DIR$/db.sqlite3" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/manage.py" beforeDir="false" afterPath="$PROJECT_DIR$/manage.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/products/admin.py" beforeDir="false" afterPath="$PROJECT_DIR$/products/admin.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/products/apps.py" beforeDir="false" afterPath="$PROJECT_DIR$/products/apps.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/products/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/products/models.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/products/serializers.py" beforeDir="false" afterPath="$PROJECT_DIR$/products/serializers.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/products/tests.py" beforeDir="false" afterPath="$PROJECT_DIR$/products/tests.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/products/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/products/urls.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/products/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/products/views.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/systatum_products_api/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/systatum_products_api/settings.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/systatum_products_api/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/systatum_products_api/urls.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Python Script" />
+      </list>
+    </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -37,6 +56,7 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "Django Server.systatum_products_api.executor": "Run",
     "ModuleVcsDetector.initialDetectionPerformed": "true",
     "RunOnceActivity.OpenDjangoStructureViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
@@ -60,6 +80,7 @@
       <option name="PARENT_ENVS" value="true" />
       <envs>
         <env name="PYTHONUNBUFFERED" value="1" />
+        <env name="DJANGO_SETTINGS_MODULE" value="systatum_products_api.settings" />
       </envs>
       <option name="SDK_HOME" value="" />
       <option name="WORKING_DIRECTORY" value="" />
@@ -93,7 +114,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1766138516448</updated>
-      <workItem from="1766138517519" duration="1459000" />
+      <workItem from="1766138517519" duration="8458000" />
     </task>
     <task id="LOCAL-00001" summary="Set up initial Django REST API project structure">
       <option name="closed" value="true" />
@@ -135,7 +156,15 @@
       <option name="project" value="LOCAL" />
       <updated>1766145773389</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="Configure root URL routing and expose product API endpoints">
+      <option name="closed" value="true" />
+      <created>1766145983362</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1766145983362</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -146,6 +175,7 @@
     <MESSAGE value="Define Product entity with JSONField for extensible product data storage" />
     <MESSAGE value="Add ProductSerializer to expose id and flexible fields" />
     <MESSAGE value="Implement ProductViewSet to provide full CRUD functionality" />
-    <option name="LAST_COMMIT_MESSAGE" value="Implement ProductViewSet to provide full CRUD functionality" />
+    <MESSAGE value="Configure root URL routing and expose product API endpoints" />
+    <option name="LAST_COMMIT_MESSAGE" value="Configure root URL routing and expose product API endpoints" />
   </component>
 </project>

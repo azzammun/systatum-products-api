@@ -1,7 +1,14 @@
-from rest_framework.routers import DefaultRouter
-from .views import ProductViewSet
+from django.urls import path
+from .views import (
+    ProductListCreateView,
+    ProductRetrieveUpdateDeleteView,
+)
 
-router = DefaultRouter()
-router.register(r'products', ProductViewSet, basename='product')
+# Product-related API routes
+urlpatterns = [
+    # List all products or create a new one
+    path('', ProductListCreateView.as_view(), name='product-list-create'),
 
-urlpatterns = router.urls
+    # Retrieve, update, or delete a specific product by ID
+    path('<int:pk>/', ProductRetrieveUpdateDeleteView.as_view(), name='product-detail'),
+]
