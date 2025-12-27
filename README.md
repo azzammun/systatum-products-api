@@ -86,7 +86,13 @@ The API can be tested easily using tools such as Postman or `curl`.
 This keeps the solution focused, simple, and aligned with the challenge scope.
 
 ---
+## Assumptions
 
+- This API assumes a trusted internal or authenticated client.
+- Validation rules are intentionally minimal to support arbitrary product fields.
+- The focus is correctness and flexibility rather than strict schema enforcement.
+
+---
 ## API Endpoints
 
 ### Create Product
@@ -172,7 +178,7 @@ http://127.0.0.1:8000/
 The main API endpoints are available at:
 
 ```
-http://127.0.0.1:8000/products
+http://127.0.0.1:8000/products/
 ```
 ---
 
